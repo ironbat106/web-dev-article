@@ -4,18 +4,24 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+/* banner styles */
+
 .banner
   {
     width: 1440px;
     height: 652px;
     background-image: url("assets/Hero-bg.png");
-    margin: 131px;
+    margin-top: 131px;
     text-align: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
   }
 
 .banner-img
@@ -65,3 +71,171 @@
     margin-bottom: 44px;
 }
 
+/* sec styles */
+ 
+.why-web-dev
+{
+    /* margin: 74px 148px; */
+    width: 1140px;
+    height: 1395px;
+    margin-top: 74px;
+    margin-left: 100px;
+    align-items: center;
+
+}
+
+.sec
+{
+    margin-left: 85px;
+    margin-top: 80px;
+}
+.sec-top
+{
+    text-align: center;
+    align-items: center;
+    /* margin-left: 48px; */
+    /* padding-left: 48px; */
+}
+
+.sec-top-title,
+{
+    /* width: 852px;
+    height: 39px; */
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sec-top-description,
+{
+    /* width: 852px;
+    height: 52px; */
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.sec-one, .sec-three
+{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.sec-two
+{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 300px;
+}
+.sec-one-title,.sec-two-title,.sec-three-title, 
+{
+    width: 390px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.sec-one-description,.sec-two-description,.sec-three-description,
+{
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+}
+
+/* .sec-one-btn
+{
+    font-weight: 600;
+    width: 149px;
+    height: 48px;
+    color: #FFFFFF;
+    border: 1px solid #0D1321;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+.btn-learn
+{
+    background-color: #FFFFFF;
+    font-family: Azeret Mono;
+    opacity: 0.7;
+    width: 150px;
+    height: 24px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.sec-without-pic
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.insp
+{
+    margin-left: 148px;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.insp-head
+{
+    margin-left: 144px;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.insp-title
+{
+    width: 852px;
+    height: 39px;
+    margin-left: 292px;
+}
+
+.insp-description
+{
+   display: flex;
+   width: 852px;
+   height: 52px;
+}
+
+.yt-vid
+{
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
