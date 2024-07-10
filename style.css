@@ -356,3 +356,108 @@
     text-decoration-line: underline;
     margin-top: 24px;
 }
+
+.sprt {
+    margin-left: 150px;
+    width: 1140px;
+    height: 314px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/handshake.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 64px 0px 64px 0px;
+    border-radius: 16px;
+    margin-top: 723px;
+}
+
+.sprt-content {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+}
+
+.sprt-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.sprt-description {
+
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.sprt-content
+{
+    margin-top: 48px;
+}
+
+.sprt-txt {
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    
+    /* color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center; */
+}
+
+.sprt-btn {
+    margin-top: px;
+    font-weight: 600;
+    width: 120px;
+    height: 58px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-family: Azeret Mono;
+    border: 1px solid #0D1321;
+    padding: 17px 20px 17px 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+/* .sprt-btn:hover 
+{
+    background-color: #7c8ea0;
+    transform: scale(1.05);
+} */
+
+.foot {
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-left: 150px;
+    margin-top: 111px;
+    display: flex;
+    flex-direction: row;
+    gap: 592px;
+
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+/* a:hover {
+    transform: scale(1.25);
+} */
